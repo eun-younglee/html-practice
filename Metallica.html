@@ -5,6 +5,8 @@
 div.album {
   margin: 1em;
   width: 200px;
+  display: flex;
+  text-align: justify;
 }
 
 div.album img {
@@ -12,16 +14,7 @@ div.album img {
   width= 200px; 
   height= 200px;
 }
-
-div.title {
-  padding: 5px;
-  text-align: center;
-}
-  
-div.photo {
-  display: flex;
-}
-        
+     
 </style>
 </head>
 <body>
@@ -30,9 +23,7 @@ div.photo {
     <div class="photo">
         <img src="Albums/Ridetl.jpg" alt="Ride the Lightning" height="200" width="200">
     </div>
-    <div class="title">
-        <h3><a title="Ride the Lightning">Ride the Lightning</a></h3>
-    </div>
+      <p>Ride the Lightning</p>
     <div class="photo">
         <iframe src="https://open.spotify.com/embed/album/05DePtm7oQMdL3Uzw2Jmsc" width="300" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
@@ -43,7 +34,6 @@ div.photo {
     <div class="photo">
         <img src="Albums/Metallica_-_Master_of_Puppets_cover.jpg" alt="Master of Puppets" height="200" width="200">
     </div>
-    <div class="title">
         <h3><a title="Master of Puppets">Master of Puppets</a></h3>
     </div>
 </div>
